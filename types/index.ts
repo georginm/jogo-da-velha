@@ -1,5 +1,5 @@
 export interface ISquareProps {
-  value?: number
+  value?: string
 }
 
 export interface ISquareState {
