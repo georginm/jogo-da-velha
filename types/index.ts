@@ -12,8 +12,10 @@ export interface ISquare {
   state: ISquareState
 }
 
-export interface IBoardProps { }
+export interface IBoardProps {
+  value?: string
+}
 
 export interface IBoardState {
-  square: ISquare[]
+  squares: string[]
 }
