@@ -13,8 +13,8 @@ class Square extends React.Component<ISquareProps, ISquareState> {
   }
   render() {
     return (
-      <button className="square">
-        {/* TODO */}
+      <button className="square" onClick={() => { this.setState({ value: 'X' }) }}>
+        {this.state.value}
       </button>
     );
   }
@@ -22,7 +22,7 @@ class Square extends React.Component<ISquareProps, ISquareState> {
 
 class Board extends React.Component {
   renderSquare(i: any) {
-    return <Square />;
+    return <Square value={i} />;
   }
 
   render() {
