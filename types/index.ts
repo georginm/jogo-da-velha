@@ -1,6 +1,6 @@
 export interface ISquareProps {
   value?: string
-  onClick?: Function
+  onClick: Function
 }
 
 export interface ISquareState {
