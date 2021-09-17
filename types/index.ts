@@ -18,4 +18,5 @@ export interface IBoardProps {
 
 export interface IBoardState {
   squares: string[]
+  xIsNext: boolean
 }
