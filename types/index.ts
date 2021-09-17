@@ -1,3 +1,3 @@
-export interface ISquare {
+export interface ISquareProps {
   value?: number
 }
