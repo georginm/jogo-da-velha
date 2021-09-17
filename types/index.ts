@@ -10,3 +10,9 @@ export interface ISquare {
   props: ISquareProps
   state: ISquareState
 }
+
+export interface IBoardProps { }
+
+export interface IBoardState {
+  square: ISquare[]
+}
