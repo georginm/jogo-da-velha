@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-import { ISquare } from '../types';
+import { ISquareProps, ISquareState } from '../types';
 
-class Square extends React.Component<ISquare> {
+class Square extends React.Component<ISquareProps, ISquareState> {
   render() {
     return (
       <button className="square">
