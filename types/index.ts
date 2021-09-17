@@ -5,3 +5,8 @@ export interface ISquareProps {
 export interface ISquareState {
   value?: string | null
 }
+
+export interface ISquare {
+  props: ISquareProps
+  state: ISquareState
+}
