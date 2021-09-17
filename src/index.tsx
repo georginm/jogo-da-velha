@@ -5,6 +5,12 @@ import './index.css';
 import { ISquareProps, ISquareState } from '../types';
 
 class Square extends React.Component<ISquareProps, ISquareState> {
+  constructor(props: ISquareProps) {
+    super(props)
+    this.state = {
+      value: null
+    }
+  }
   render() {
     return (
       <button className="square">
