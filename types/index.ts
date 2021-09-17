@@ -3,5 +3,5 @@ export interface ISquareProps {
 }
 
 export interface ISquareState {
-  value?: boolean | null
+  value?: string | null
 }
