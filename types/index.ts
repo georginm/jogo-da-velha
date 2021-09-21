@@ -13,7 +13,8 @@ export interface IBoardState {
   xIsNext?: boolean
 }
 
-export interface IBoardState {
-  squares: string[]
+export interface IGameState{
+  history: IBoardState[]
   xIsNext: boolean
+  stepNumber: number
 }
