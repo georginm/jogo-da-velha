@@ -3,12 +3,14 @@ export interface ISquareProps {
   onClick: any
 }
 
-export interface ISquareState {
-  value?: string | null
+export interface IBoardProps {
+  squares: string[],
+  onClick: Function
 }
 
-export interface IBoardProps {
-  value?: string
+export interface IBoardState {
+  squares: string[],
+  xIsNext?: boolean
 }
 
 export interface IBoardState {
