@@ -13,6 +13,8 @@ export interface IBoardState {
   xIsNext?: boolean
 }
 
+export interface IGameProps{}
+
 export interface IGameState{
   history: IBoardState[]
   xIsNext: boolean
